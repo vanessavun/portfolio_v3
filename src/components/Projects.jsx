@@ -56,9 +56,8 @@ function Projects() {
                 LADYCRVSHCREW
               </h2>
               <p className=" text-indigo-300 font-normal px-4 pt-4">
-                Web app for a real climbing community group with user
-                authentication (Google and non-Google) store, shopping cart, and
-                test Stripe payment.
+                Web app for a real climbing community group with user authentication (Google and non-Google) store,
+                shopping cart, and test Stripe payment.
               </p>
               <ul className="italic p-2 flex flex-row">
                 {badge("React")}
@@ -71,12 +70,7 @@ function Projects() {
               <div className="flex flex-row px-4 py-2">
                 {liveSiteButton("https://ladycrushcrew.vanessavun.com/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a
-                    href="https://github.com/vanessavun/ladycrushcrewV3"
-                    target="_blank"
-                  >
-                    Code
-                  </a>
+                  <a>Code</a>
                 </div>
               </div>
             </div>
@@ -103,14 +97,9 @@ function Projects() {
                 {badge("Netlify")}
               </ul>
               <div className="flex flex-row px-4 py-2">
-                {liveSiteButton("https://kanban.vanessavun.com/")}
+              {liveSiteButton("https://kanban.vanessavun.com/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a
-                    href="https://github.com/vanessavun/labtech"
-                    target="_blank"
-                  >
-                    Code
-                  </a>
+                  <a>Code</a>
                 </div>
               </div>
             </div>
@@ -140,12 +129,7 @@ function Projects() {
               <div className="flex flex-row px-4 py-2">
                 {liveSiteButton("https://smartbrain.vanessavun.com/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a
-                    href="https://github.com/vanessavun/ztm-face-recognition"
-                    target="_blank"
-                  >
-                    Code
-                  </a>
+                  <a>Code</a>
                 </div>
               </div>
             </div>
@@ -168,16 +152,9 @@ function Projects() {
                 {badge("Netlify")}
               </ul>
               <div className="flex flex-row px-4 py-2">
-                {liveSiteButton(
-                  "https://animated-beijinho-eb052f.netlify.app/"
-                )}
+                {liveSiteButton("https://animated-beijinho-eb052f.netlify.app/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a
-                    href="https://github.com/vanessavun/portfolio_v3"
-                    target="_blank"
-                  >
-                    Code
-                  </a>
+                  <a>Code</a>
                 </div>
               </div>
             </div>
