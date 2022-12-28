@@ -47,7 +47,7 @@ function Projects() {
                 src="https://i.ibb.co/4M1V27j/Lady-Crush-Crew.gif"
                 className="rounded-lg project-image "
               />
-              <span className="absolute bottom-4 right-6 bg-yellow-300 m-0 p-1 text-xs uppercase font-extrabold">
+              <span className="featured absolute bottom-4 right-6 bg-yellow-300 m-0 p-1 text-xs uppercase font-extrabold">
                 Featured
               </span>
             </div>
@@ -60,7 +60,7 @@ function Projects() {
                 authentication (Google and non-Google) store, shopping cart, and
                 test Stripe payment.
               </p>
-              <ul className="italic p-2 flex flex-row">
+              <ul className="italic p-2 flex flex-wrap">
                 {badge("React")}
                 {badge("Typescript")}
                 {badge("Stripe")}
@@ -77,7 +77,7 @@ function Projects() {
             </div>
           </div>
           {/* Project */}
-          <div className="w-full flex py-4">
+          <div className="projects-container w-full flex py-4">
             {projectImage(
               "https://i.ibb.co/PG1sVBD/Screenshot-2022-12-23-225557.png"
             )}
@@ -90,7 +90,7 @@ function Projects() {
                 running through the laboratory. It has countdown timing of
                 batches to help scientists keep track of batch status.{" "}
               </p>
-              <ul className="italic p-2 flex flex-row">
+              <ul className="italic p-2 flex flex-wrap">
                 {badge("React")}
                 {badge("Bootstrap")}
                 {badge("Context API")}
@@ -106,15 +106,15 @@ function Projects() {
             </div>
           </div>
           {/* Project */}
-          <div className="w-full flex py-4">
+          <div className="projects-container w-full flex py-4">
             {projectImage(
               "https://i.ibb.co/5FM1C2s/Screenshot-2022-12-23-225355.png"
             )}
-            <div className="flex flex-col justify-center w-1/2">
+            <div className="flex flex-col justify-center">
               <h2 className="text-indigo-200 font-bold text-normal px-4">
                 Face Detection App
               </h2>
-              <p className=" text-indigo-300 font-normal px-4 pt-4">
+              <p className="text-indigo-300 font-normal px-4 pt-4">
                 This app has a Face Detection App by Clarifai with an entry
                 counter, user registration and log in authentication without
                 OAuth.
@@ -135,8 +135,8 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* Project*/}
-          <div className="w-full flex py-4">
+          {/* Project */}
+          <div className="projects-container w-full flex py-4">
             {projectImage("https://i.ibb.co/mXPFgHF/portfolio.png")}
             <div className="flex flex-col justify-center">
               <h2 className="text-indigo-200 font-bold text-normal px-4">

@@ -54,7 +54,8 @@ button:active {
 }
 
 .social {
-  width: 30%;
+  width: 100%;
+  max-width: 300px;
 }
 
 .social > a:hover {
@@ -70,3 +71,38 @@ button:active {
   min-width: 200px;
   border-radius: 100%;
 }
+
+@media only screen 
+    and (device-width : 390px)
+    and (-webkit-device-pixel-ratio : 3) {
+      .container {
+        min-width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .projects-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .project-image {
+        display: flex;
+        justify-content: center;
+      }
+      .featured {
+        right: 0;
+      }
+      .hero-image {
+        max-width: 380px;
+      }
+      #hero > .container {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #contact > .container {
+        max-width: 380px;
+      }
+    }

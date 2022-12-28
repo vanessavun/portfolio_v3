@@ -15,7 +15,7 @@ function About() {
               <div className="about-text">
                 <p className=" text-indigo-300 font-semibold">
                   I'm a self-taught developer focused on frontend
-                  development, and I enjoy building tools for the web. I was
+                  development. I was
                   inspired to learn development after using a dashboard with
                   live sample pipeline and its ability to control robots and
                   instruments at a biotech laboratory.

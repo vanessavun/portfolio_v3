@@ -18,25 +18,19 @@ function Contact() {
           </h1>
           <ContactForm />
         </div>
-        <div className="social container mt-10 flex flex-row">
-          <div className="flex flex-col justify-center items-center p-4">
-            <a href="https://www.instagram.com/nessa.byte/" className="text-sm">
-              <img src={igIcon} />
+        <div className="social mt-10 flex">
+            <a href="https://www.instagram.com/nessa.byte/">
+              <img src={igIcon} className="px-2" />
             </a>
-          </div>
-          <div className="flex flex-col justify-center items-center p-4">
             <a
               href="https://www.linkedin.com/in/vanessavun/"
-              className="text-sm"
+              
             >
-              <img src={liIcon} />
+              <img src={liIcon} className="px-2" />
             </a>
-          </div>
-          <div className="flex flex-col justify-center items-center p-4">
-            <a href="https://github.com/vanessavun" className="text-sm">
-              <img src={ghIcon} />
+            <a href="https://github.com/vanessavun">
+              <img src={ghIcon} className="px-2" />
             </a>
-          </div>
         </div>
       </section>
     </Fade>
