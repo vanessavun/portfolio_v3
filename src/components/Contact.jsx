@@ -12,7 +12,7 @@ function Contact() {
         id="contact"
         className="flex flex-col justify-center items-center mt-10"
       >
-        <div className="rounded-lg container bg-blue-200">
+        <div className="rounded-lg bg-blue-200">
           <h1 className=" text-blue-700 text-2xl uppercase font-bold p-4 text-center font-serif">
             Contact me 📪
           </h1>
