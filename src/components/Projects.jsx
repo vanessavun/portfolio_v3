@@ -152,7 +152,7 @@ function Projects() {
                 {badge("Netlify")}
               </ul>
               <div className="flex flex-row px-4 py-2">
-                {liveSiteButton("https://vanessavun.tech/")}
+                {liveSiteButton("https://animated-beijinho-eb052f.netlify.app/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
                   <a>Code</a>
                 </div>
