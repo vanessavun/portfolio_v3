@@ -56,8 +56,9 @@ function Projects() {
                 LADYCRVSHCREW
               </h2>
               <p className=" text-indigo-300 font-normal px-4 pt-4">
-                Web app for a real climbing community group with user authentication (Google and non-Google) store,
-                shopping cart, and test Stripe payment.
+                Web app for a real climbing community group with user
+                authentication (Google and non-Google) store, shopping cart, and
+                test Stripe payment.
               </p>
               <ul className="italic p-2 flex flex-row">
                 {badge("React")}
@@ -70,7 +71,7 @@ function Projects() {
               <div className="flex flex-row px-4 py-2">
                 {liveSiteButton("https://ladycrushcrew.vanessavun.com/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a>Code</a>
+                  <a href="https://github.com/vanessavun/ladycrushcrewV3" target="_blank">Code</a>
                 </div>
               </div>
             </div>
@@ -97,9 +98,9 @@ function Projects() {
                 {badge("Netlify")}
               </ul>
               <div className="flex flex-row px-4 py-2">
-              {liveSiteButton("https://kanban.vanessavun.com/")}
+                {liveSiteButton("https://kanban.vanessavun.com/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a>Code</a>
+                  <a href="https://github.com/vanessavun/labtech" target="_blank">Code</a>
                 </div>
               </div>
             </div>
@@ -129,7 +130,7 @@ function Projects() {
               <div className="flex flex-row px-4 py-2">
                 {liveSiteButton("https://smartbrain.vanessavun.com/")}
                 <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a>Code</a>
+                  <a href="https://github.com/vanessavun/ztm-face-recognition" target="_blank">Code</a>
                 </div>
               </div>
             </div>
@@ -139,7 +140,7 @@ function Projects() {
             {projectImage("https://i.ibb.co/mXPFgHF/portfolio.png")}
             <div className="flex flex-col justify-center">
               <h2 className="text-indigo-200 font-bold text-normal px-4">
-                Personal Portfolio
+                Personal Portfolio v 3.0
               </h2>
               <p className=" text-indigo-300 font-normal px-4">
                 My personal portfolio is a single page app to show about me, my
@@ -152,9 +153,28 @@ function Projects() {
                 {badge("Netlify")}
               </ul>
               <div className="flex flex-row px-4 py-2">
-                {liveSiteButton("https://animated-beijinho-eb052f.netlify.app/")}
-                <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a>Code</a>
+                <button
+                  type="button"
+                  className="text-indigo-100 font-medium text-sm px-2 bg-indigo-500 rounded-lg"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open("https://vanessavun.github.io/portfolio/", "_blank");
+                  }}
+                >
+                  v 1.0
+                </button>
+                <button
+                  type="button"
+                  className="text-indigo-100 font-medium text-sm mx-2 px-2 bg-indigo-500 rounded-lg"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open("https://delicate-lokum-492537.netlify.app/", "_blank");
+                  }}
+                >
+                  v 2.0
+                </button>
+                <div className=" text-indigo-300 font-medium px-2 py-2">
+                  <a href="https://github.com/vanessavun/portfolio_v3" target="_blank">Code</a>
                 </div>
               </div>
             </div>
