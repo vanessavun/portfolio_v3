@@ -79,7 +79,7 @@ function Projects() {
           {/* Project */}
           <div className="projects-container w-full flex py-4">
             {projectImage(
-              "https://i.ibb.co/PG1sVBD/Screenshot-2022-12-23-225557.png"
+              "https://i.ibb.co/MBsQ7VZ/Screenshot-2022-12-29-112403.png"
             )}
             <div className="flex flex-col justify-center">
               <h2 className="text-indigo-200 font-bold text-normal px-4">
@@ -87,8 +87,8 @@ function Projects() {
               </h2>
               <p className="text-indigo-300 font-normal px-4 pt-2">
                 This kanban board serves as a visual presentation of batches
-                running through the laboratory. It has countdown timing of
-                batches to help scientists keep track of batch status.{" "}
+                running through the laboratory. Features: log in/sign up/sign out via Firebase auth and a countdown timing of
+                batches to help keep track of batch status.
               </p>
               <ul className="italic p-2 flex flex-wrap">
                 {badge("React")}
