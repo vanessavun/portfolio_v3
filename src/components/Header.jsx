@@ -21,7 +21,7 @@ function Header() {
                     <a href="#contact">Contact</a>
                   </li>
                   <li className="mx-4">
-                    <a href="#">Resume</a>
+                    <a href="https://drive.google.com/file/d/1p4QLT-DVhTCNGIZu9B80hhQen84weljd/view?usp=share_link" target="_blank">Resume</a>
                   </li>
                 </ul>
               </div>
