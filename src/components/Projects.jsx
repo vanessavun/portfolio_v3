@@ -57,7 +57,7 @@ function Projects() {
               </h2>
               <p className=" text-indigo-300 font-normal px-4 pt-4">
                 Web app for a real climbing community group with user
-                authentication (Google and non-Google) store, shopping cart, and
+                authentication (Google and non-Google), store, shopping cart, and
                 test Stripe payment.
               </p>
               <ul className="italic p-2 flex flex-wrap">

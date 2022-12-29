@@ -14,22 +14,28 @@ function About() {
               {/* <img src={pic} className="about-pic" /> */}
               <div className="about-text">
                 <p className=" text-indigo-300 font-semibold">
-                  I'm a self-taught developer focused on frontend
-                  development. I was
-                  inspired to learn development after using a dashboard with
-                  live sample pipeline and its ability to control robots and
-                  instruments at a biotech laboratory.
+                  Deeply inspired after using a dashboard with a live sample
+                  pipeline and its ability to control robots and instruments at
+                  a biotech laboratory, I knew I had to go back to my childhood
+                  passion in coding. I started with learning C++ and building
+                  PCs in middle school, but I was steered to pursue a role as a
+                  doctor then a clinical lab scientist in the healthcare/biotech
+                  industry. I realized that laboratory science wasn't for me and
+                  wanted a more challenging role where I had to keep constantly
+                  learning. Impatient to learn, I started my self-taught coding
+                  journey using various resources such as Codecademy, Scrimba
+                  and Udemy.
                 </p>
                 <p className=" text-indigo-300 font-semibold py-4">
-                  My main skills are in frontend development using React, and I
-                  thrive at the constant learning and solving problems through
-                  code. I am excited to build websites and apps and to learn new
-                  things so I can make a positive impact in people's lives.
+                  I thrive at the constant learning and solving problems through
+                  code to make a positive impact in people's lives. From my
+                  professional experience, I offer empathy, attention to
+                  details, and teamwork.
                 </p>
                 <p className=" text-indigo-300 font-semibold py-4">
                   Hobbies & interests:
                   <ul className="flex p-4 flex-wrap">
-                    <li className="px-4">🧗🏻‍♀️Climbing</li>
+                    <li className="px-4">🧗🏻‍♀️<a href="https://www.instagram.com/rocketnessa/" target="_blank"><i>Climbing</i></a></li>
                     <li className="px-4">🎞K-pop/k-drama</li>
                     <li className="px-4">💃🏽Dance covers</li>
                     <li className="px-4">⌨️Mechanical keyboards</li>
