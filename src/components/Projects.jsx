@@ -1,7 +1,46 @@
 import React from "react";
-import { Slide } from "react-reveal";
+import { Fade } from "react-reveal";
+import FeaturedProject from "./FeaturedProject";
+import ProjectBlock from "./ProjectBlock";
+
 
 function Projects() {
+  const featured = {
+    imageUrl: "https://i.ibb.co/4M1V27j/Lady-Crush-Crew.gif",
+    title: "LADYCRVSHCREW",
+    description: "Web app for a real climbing community group with user authentication (Google and non-Google), store, shopping cart, and test Stripe payment.",
+    badges: ["React", "Typescript", "Stripe", "Redux/Saga", "Firebase", "Netlify"],
+    liveUrl: "https://ladycrushcrew.vanessavun.com/",
+    githubUrl: "https://github.com/vanessavun/ladycrushcrewV3"
+  }
+  const project1 = {
+    imageUrl: "https://i.ibb.co/MBsQ7VZ/Screenshot-2022-12-29-112403.png",
+    title: "Sample Batch Kanban Board",
+    description: "This kanban board serves as a visual presentation of batches running through the laboratory. Features: log in/sign up/sign out via Firebase auth and a countdown timing of batches to help keep track of batch status.",
+    badges: ["React", "Bootstrap", "Context API", "Firebase", "Netlify"],
+    liveUrl: "https://kanban.vanessavun.com/",
+    githubUrl: "https://github.com/vanessavun/labtech"
+  }
+  const project2 = {
+    imageUrl: "https://i.ibb.co/5FM1C2s/Screenshot-2022-12-23-225355.png",
+    title: "Face Detection App",
+    description: "This app has a Face Detection App by Clarifai with an entry counter, user registration and log in authentication without OAuth.",
+    badges: ["React", "API", "PostgreSQL", "Node", "Express", "Heroku/Render"],
+    liveUrl: "https://smartbrain.vanessavun.com/",
+    githubUrl: "https://github.com/vanessavun/ztm-face-recognition"
+  }
+  const project3 = {
+    imageUrl: "https://i.ibb.co/mXPFgHF/portfolio.png",
+    title: "Personal Portfolio v 3.0",
+    description: "My personal portfolio is a single page app to show about me, my skills, and personal projects.",
+    badges: ["React", "Tailwind CSS", "Vite", "Netlify"],
+    urls: [
+      ["https://vanessavun.github.io/portfolio/", "v 1.0"],
+      ["https://delicate-lokum-492537.netlify.app/", "v 2.0"]
+    ],
+    githubUrl: "https://github.com/vanessavun/ztm-face-recognition"
+  }
+
   const liveSiteButton = (url) => {
     return (
       <button
@@ -40,144 +79,16 @@ function Projects() {
           ⭐️ Projects
         </h1>
         <div className="h-0.5 bg-indigo-200 mb-4"></div>
-        <Slide right>
+        <Fade>
           {/* Featured Project */}
-          <div className="projects-container sm:flex bg-indigo-800 py-4">
-            <div className="rotate relative">
-              {projectImage("https://i.ibb.co/4M1V27j/Lady-Crush-Crew.gif")}
-              <span className="featured absolute bottom-4 right-8 bg-yellow-300 m-0 p-1 text-xs uppercase font-extrabold">
-                Featured
-              </span>
-            </div>
-            <div className="justify-center">
-              <h2 className="text-indigo-200 font-bold text-normal px-4">
-                LADYCRVSHCREW
-              </h2>
-              <p className=" text-indigo-300 font-normal px-4 pt-4">
-                Web app for a real climbing community group with user
-                authentication (Google and non-Google), store, shopping cart, and
-                test Stripe payment.
-              </p>
-              <ul className="italic p-2 flex flex-wrap">
-                {badge("React")}
-                {badge("Typescript")}
-                {badge("Stripe")}
-                {badge("Redux/Saga")}
-                {badge("Firebase")}
-                {badge("Netlify")}
-              </ul>
-              <div className="flex flex-row px-4 py-2">
-                {liveSiteButton("https://ladycrushcrew.vanessavun.com/")}
-                <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a href="https://github.com/vanessavun/ladycrushcrewV3" target="_blank">Code</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Project */}
-          <div className="projects-container sm:flex py-4">
-            {projectImage(
-              "https://i.ibb.co/MBsQ7VZ/Screenshot-2022-12-29-112403.png"
-            )}
-            <div className="flex flex-col justify-center">
-              <h2 className="text-indigo-200 font-bold text-normal px-4">
-                Sample Batch Kanban Board
-              </h2>
-              <p className="text-indigo-300 font-normal px-4 pt-2">
-                This kanban board serves as a visual presentation of batches
-                running through the laboratory. Features: log in/sign up/sign out via Firebase auth and a countdown timing of
-                batches to help keep track of batch status.
-              </p>
-              <ul className="italic p-2 flex flex-wrap">
-                {badge("React")}
-                {badge("Bootstrap")}
-                {badge("Context API")}
-                {badge("Firebase")}
-                {badge("Netlify")}
-              </ul>
-              <div className="flex flex-row px-4 py-2">
-                {liveSiteButton("https://kanban.vanessavun.com/")}
-                <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a href="https://github.com/vanessavun/labtech" target="_blank">Code</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Project */}
-          <div className="projects-container sm:flex py-4">
-            {projectImage(
-              "https://i.ibb.co/5FM1C2s/Screenshot-2022-12-23-225355.png"
-            )}
-            <div className="flex flex-col justify-center">
-              <h2 className="text-indigo-200 font-bold text-normal px-4">
-                Face Detection App
-              </h2>
-              <p className="text-indigo-300 font-normal px-4 pt-4">
-                This app has a Face Detection App by Clarifai with an entry
-                counter, user registration and log in authentication without
-                OAuth.
-              </p>
-              <ul className="italic p-2 flex flex-wrap">
-                {badge("React")}
-                {badge("API")}
-                {badge("PostgreSQL")}
-                {badge("Node")}
-                {badge("Express")}
-                {badge("Heroku/Render")}
-              </ul>
-              <div className="flex flex-row px-4 py-2">
-                {liveSiteButton("https://smartbrain.vanessavun.com/")}
-                <div className=" text-indigo-300 font-medium px-4 py-2">
-                  <a href="https://github.com/vanessavun/ztm-face-recognition" target="_blank">Code</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Project */}
-          <div className="projects-container sm:flex py-4">
-            {projectImage("https://i.ibb.co/mXPFgHF/portfolio.png")}
-            <div className="flex flex-col justify-center">
-              <h2 className="text-indigo-200 font-bold text-normal px-4">
-                Personal Portfolio v 3.0
-              </h2>
-              <p className=" text-indigo-300 font-normal px-4">
-                My personal portfolio is a single page app to show about me, my
-                skills, and personal projects.
-              </p>
-              <ul className="italic p-2 flex flex-row">
-                {badge("React")}
-                {badge("Tailwind CSS")}
-                {badge("Vite")}
-                {badge("Netlify")}
-              </ul>
-              <div className="flex flex-row px-4 py-2">
-                <button
-                  type="button"
-                  className="text-indigo-100 font-medium text-sm px-2 bg-indigo-500 rounded-lg"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.open("https://vanessavun.github.io/portfolio/", "_blank");
-                  }}
-                >
-                  v 1.0
-                </button>
-                <button
-                  type="button"
-                  className="text-indigo-100 font-medium text-sm mx-2 px-2 bg-indigo-500 rounded-lg"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.open("https://delicate-lokum-492537.netlify.app/", "_blank");
-                  }}
-                >
-                  v 2.0
-                </button>
-                <div className=" text-indigo-300 font-medium px-2 py-2">
-                  <a href="https://github.com/vanessavun/portfolio_v3" target="_blank">Code</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Slide>
+          <FeaturedProject project={featured} />
+          {/* Project 1 Kanban Board */}
+          <ProjectBlock project={project1} />
+          {/* Project 2 Face */}
+          <ProjectBlock project={project2} />
+          {/* Project 3 Portfolio */}
+          <ProjectBlock project={project3} />
+        </Fade>
       </div>
     </section>
   );

@@ -1,11 +1,11 @@
 import React from "react";
-import { Slide } from "react-reveal";
+import { Fade } from "react-reveal";
 
 function About() {
   return (
     <section id="about" className="flex justify-center text-sm md:text-base">
       <div className="container">
-        <Slide left>
+        <Fade>
           <div className="about-section p-4">
             <h1 className="text-xl uppercase font-bold text-indigo-200 font-serif py-4">
               ⭐️ About me
@@ -74,7 +74,7 @@ function About() {
               </div>
             </div>
           </div>
-        </Slide>
+        </Fade>
       </div>
     </section>
   );

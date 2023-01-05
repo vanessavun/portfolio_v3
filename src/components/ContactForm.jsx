@@ -22,7 +22,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="w-full md:w-96 md:max-w-full mx-auto">
+    <div className="w-full mx-auto">
       <form
         className="p-4 bg-blue-200 rounded-lg"
         action={FORM_ENDPOINT}
@@ -45,6 +45,8 @@ const ContactForm = () => {
             name="email"
             placeholder="hello@kitty.com"
             className="block w-full p-2 border-gray-400 rounded-lg shadow-sm font-serif"
+            pattern="[^ @]*@[^ @]*"
+            required
           />
         </label>
         <label className="block mb-6" for="message">
