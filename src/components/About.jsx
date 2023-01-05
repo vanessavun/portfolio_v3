@@ -6,7 +6,7 @@ function About() {
     <section id="about" className="flex justify-center text-sm md:text-base">
       <div className="container">
         <Slide left>
-          <div className="about-section">
+          <div className="about-section p-4">
             <h1 className="text-lg font-bold text-indigo-200 font-serif py-4">
               ⭐️ About me
             </h1>
@@ -35,7 +35,7 @@ function About() {
                 <p className=" text-indigo-300 font-semibold py-4">
                   Hobbies & interests:
                   <ul className="flex p-4 flex-wrap">
-                    <li className="px-4">🧗🏻‍♀️<a href="https://www.instagram.com/rocketnessa/" target="_blank"><i>Climbing</i></a></li>
+                    <li className="px-4">🧗🏻‍♀️<a href="https://www.instagram.com/rocketnessa/" target="_blank"><i className="underline">Climbing</i></a></li>
                     <li className="px-4">🎞K-pop/k-drama</li>
                     <li className="px-4">💃🏽Dance covers</li>
                     <li className="px-4">⌨️Mechanical keyboards</li>

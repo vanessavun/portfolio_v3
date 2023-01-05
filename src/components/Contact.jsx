@@ -10,7 +10,7 @@ function Contact() {
     <Fade>
       <section
         id="contact"
-        className="flex flex-col justify-center items-center mt-10"
+        className="md:flex md:flex-col justify-center items-center mt-10 px-4 py-2"
       >
         <div className="rounded-lg bg-blue-200">
           <h1 className=" text-blue-700 text-2xl uppercase font-bold p-4 text-center font-serif">
@@ -18,7 +18,7 @@ function Contact() {
           </h1>
           <ContactForm />
         </div>
-        <div className="social mt-10 flex">
+        <div className="social mt-10 flex flex-row max-w-xs m-auto">
             <a href="https://www.instagram.com/nessa.byte/">
               <img src={igIcon} className="px-2" />
             </a>

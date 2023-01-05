@@ -28,30 +28,27 @@ function Projects() {
   const projectImage = (url) => {
     return (
       <div className="rotate p-4">
-        <img src={url} className="rounded-lg project-image drop-shadow-lg" />
+        <img src={url} className="rounded-lg drop-shadow-lg md:max-w-xs" />
       </div>
     );
   };
 
   return (
     <section id="projects" className="flex justify-center">
-      <div className="container">
+      <div className="container p-4">
         <h1 className="text-lg font-bold text-indigo-200 font-serif py-4">
           ⭐️ Projects
         </h1>
         <Slide right>
           {/* Featured Project */}
-          <div className="projects-container flex bg-indigo-800 py-4">
-            <div className="rotate p-4 relative">
-              <img
-                src="https://i.ibb.co/4M1V27j/Lady-Crush-Crew.gif"
-                className="rounded-lg project-image "
-              />
-              <span className="featured absolute bottom-4 right-6 bg-yellow-300 m-0 p-1 text-xs uppercase font-extrabold">
+          <div className="projects-container sm:flex bg-indigo-800 py-4">
+            <div className="rotate relative">
+              {projectImage("https://i.ibb.co/4M1V27j/Lady-Crush-Crew.gif")}
+              <span className="featured absolute bottom-4 right-8 bg-yellow-300 m-0 p-1 text-xs uppercase font-extrabold">
                 Featured
               </span>
             </div>
-            <div className="flex flex-col justify-center">
+            <div className="justify-center">
               <h2 className="text-indigo-200 font-bold text-normal px-4">
                 LADYCRVSHCREW
               </h2>
@@ -77,7 +74,7 @@ function Projects() {
             </div>
           </div>
           {/* Project */}
-          <div className="projects-container w-full flex py-4">
+          <div className="projects-container sm:flex py-4">
             {projectImage(
               "https://i.ibb.co/MBsQ7VZ/Screenshot-2022-12-29-112403.png"
             )}
@@ -106,7 +103,7 @@ function Projects() {
             </div>
           </div>
           {/* Project */}
-          <div className="projects-container w-full flex py-4">
+          <div className="projects-container sm:flex py-4">
             {projectImage(
               "https://i.ibb.co/5FM1C2s/Screenshot-2022-12-23-225355.png"
             )}
@@ -136,7 +133,7 @@ function Projects() {
             </div>
           </div>
           {/* Project */}
-          <div className="projects-container w-full flex py-4">
+          <div className="projects-container sm:flex py-4">
             {projectImage("https://i.ibb.co/mXPFgHF/portfolio.png")}
             <div className="flex flex-col justify-center">
               <h2 className="text-indigo-200 font-bold text-normal px-4">

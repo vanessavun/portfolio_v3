@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
-  purge: [
-    "./src/**/*.{html,js,jsx}",
-    "./public/index.html",
-    "./src/*.jsx"
-  ]
+  plugins: []
 }
+
+// purge: [
+//   "./src/**/*.{html,js,jsx}",
+//   "./public/index.html",
+//   "./src/*.jsx"
+// ]
