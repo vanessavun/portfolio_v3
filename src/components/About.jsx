@@ -7,11 +7,11 @@ function About() {
       <div className="container">
         <Slide left>
           <div className="about-section p-4">
-            <h1 className="text-lg font-bold text-indigo-200 font-serif py-4">
+            <h1 className="text-xl uppercase font-bold text-indigo-200 font-serif py-4">
               ⭐️ About me
             </h1>
+            <div className="h-0.5 bg-indigo-200"></div>
             <div className="flex flex-row p-4">
-              {/* <img src={pic} className="about-pic" /> */}
               <div className="about-text">
                 <p className=" text-indigo-300 font-semibold">
                   Deeply inspired after using a dashboard with a live sample
@@ -35,11 +35,13 @@ function About() {
                 <p className=" text-indigo-300 font-semibold py-4">
                   Hobbies & interests:
                   <ul className="flex p-4 flex-wrap">
-                    <li className="px-4">🧗🏻‍♀️<a href="https://www.instagram.com/rocketnessa/" target="_blank"><i className="underline">Climbing</i></a></li>
-                    <li className="px-4">🎞K-pop/k-drama</li>
-                    <li className="px-4">💃🏽Dance covers</li>
-                    <li className="px-4">⌨️Mechanical keyboards</li>
                     <li className="px-4">🐱Cats</li>
+                    <li className="px-4">🧗🏻‍♀️<a href="https://www.instagram.com/rocketnessa/" target="_blank"><i className="underline">Climbing</i></a></li>
+                    <li className="px-4">📺K-pop/k-drama</li>
+                    <li className="px-4">💃🏽Dance covers</li>
+                    <li className="px-4">🪚Home climbing wall</li>
+                    <li className="px-4">🛠Custom PC builds</li>
+                    <li className="px-4">⌨️Mechanical keyboards</li>
                   </ul>
                 </p>
                 <p className=" text-indigo-300 font-semibold py-4">

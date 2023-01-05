@@ -58,7 +58,7 @@ const ContactForm = () => {
         <div className="mb-4">
           <button
             type="submit"
-            className="h-10 px-5 text-white font-semibold bg-blue-500 rounded-lg"
+            className="submit-button h-10 px-5 text-white font-semibold rounded-lg"
           >
             Submit
           </button>

@@ -28,7 +28,7 @@ function Projects() {
   const projectImage = (url) => {
     return (
       <div className="rotate p-4">
-        <img src={url} className="rounded-lg drop-shadow-lg md:max-w-xs" />
+        <img src={url} className="rounded-lg drop-shadow-lg sm:max-w-xs" />
       </div>
     );
   };
@@ -36,9 +36,10 @@ function Projects() {
   return (
     <section id="projects" className="flex justify-center">
       <div className="container p-4">
-        <h1 className="text-lg font-bold text-indigo-200 font-serif py-4">
+        <h1 className="text-xl uppercase font-bold text-indigo-200 font-serif py-4">
           ⭐️ Projects
         </h1>
+        <div className="h-0.5 bg-indigo-200 mb-4"></div>
         <Slide right>
           {/* Featured Project */}
           <div className="projects-container sm:flex bg-indigo-800 py-4">
