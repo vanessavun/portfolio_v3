@@ -20,7 +20,10 @@ function About() {
                   passion in coding. I started with learning C++ and building
                   PCs in middle school, but I was steered to pursue a role as a
                   doctor then a clinical lab scientist in the healthcare/biotech
-                  industry. I realized that laboratory science wasn't for me and
+                  industry.
+                </p>
+                <p className=" text-indigo-300 font-semibold py-4">
+                  I realized that laboratory science wasn't for me and
                   wanted a more challenging role where I had to keep constantly
                   learning. Impatient to learn, I started my self-taught coding
                   journey using various resources such as Codecademy, Scrimba

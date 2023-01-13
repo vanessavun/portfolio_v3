@@ -13,7 +13,7 @@ function Hero() {
                 👋 Hi, my name is
               </h2>
               <h1 className="text-5xl font-bold text-purple-300 py-4 font-serif">
-                Vanessa Vun.
+                Vanessa Vun
               </h1>
               <p className=" text-indigo-300 font-light font-sans">
                 I'm a Software Developer from the San Francisco Bay Area,
