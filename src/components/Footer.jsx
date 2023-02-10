@@ -1,10 +1,11 @@
 import React from "react";
 
 function Footer() {
+  const year = new Date().getFullYear();
   return (
     <footer className="py-8 flex flex-col justify-center items-center bg-black">
       <p className="text-indigo-200 font-semibold text-sm">
-        © 2022 | Coded with 💗 by Vanessa Vun
+        © {year} | Coded with 💗 by Vanessa Vun
       </p>
       <p id="credits" className="text-indigo-200 text-sm">
         Star & Finger icon by{" "}
