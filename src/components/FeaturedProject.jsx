@@ -9,7 +9,7 @@ function FeaturedProject({ project }) {
     <div className="projects-container sm:flex bg-indigo-800 py-4">
       <div className="rotate relative">
         <ProjectImage url={imageUrl} />
-        <span className="featured absolute bottom-4 right-8 bg-yellow-300 m-0 p-1 text-xs uppercase font-extrabold">
+        <span className="featured absolute top-0 left-0 bg-yellow-300 m-0 p-1 text-xs uppercase font-extrabold">
           Featured
         </span>
       </div>

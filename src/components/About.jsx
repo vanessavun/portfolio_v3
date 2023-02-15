@@ -10,7 +10,7 @@ function About() {
             <h1 className="text-xl uppercase font-bold text-indigo-200 font-serif py-4">
               ⭐️ About me
             </h1>
-            <div className="h-0.5 bg-indigo-200"></div>
+            <div className="h-0.5 gradient-div"></div>
             <div className="flex flex-row p-4">
               <div className="about-text">
                 <p className=" text-indigo-300 font-semibold">
@@ -68,7 +68,6 @@ function About() {
                       Project Management
                     </li>
                     <li className="px-1 m-1 bg-black rounded-md">Leadership</li>
-                    <li className="px-1 m-1 bg-black rounded-md">Teaching</li>
                     <li className="px-1 m-1 bg-black rounded-md">
                       Troubleshooting
                     </li>

@@ -5,7 +5,7 @@ import ProjectBlock from "./ProjectBlock";
 
 
 function Projects() {
-  const featured = {
+  const ladycrushcrew = {
     imageUrl: "https://i.ibb.co/4M1V27j/Lady-Crush-Crew.gif",
     title: "LADYCRVSHCREW",
     description: "Web app for a real climbing community group with user authentication (Google and non-Google), store, shopping cart, and test Stripe payment.",
@@ -39,6 +39,14 @@ function Projects() {
       ["https://delicate-lokum-492537.netlify.app/", "v 2.0"]
     ],
     githubUrl: "https://github.com/vanessavun/ztm-face-recognition"
+  }
+  const project4 = {
+    imageUrl: "https://i.ibb.co/whfV5zk/Apples-to-Oranges.gif",
+    title: "Apples to Oranges: a Grocery Shopping App",
+    description: "DeveloperWeek 2023 Hackathon project of a shopping app that finds the best prices near the user for a product or item. Role: project presentation, project manager, front-end developer (navigation, home page, responsiveness, hamburger menu, copywriting, illustrations/design choice)",
+    badges: ["React", "Tailwind CSS", "Firebase", "MapBox", "MapQuest API", "Vite", "Netlify", "Figma"],
+    liveUrl: "https://apples2oranges.netlify.app/",
+    githubUrl: "https://github.com/Oh-Bits-Please/hackathon-2023"
   }
 
   const liveSiteButton = (url) => {
@@ -78,10 +86,12 @@ function Projects() {
         <h1 className="text-xl uppercase font-bold text-indigo-200 font-serif py-4">
           ⭐️ Projects
         </h1>
-        <div className="h-0.5 bg-indigo-200 mb-4"></div>
+        <div className="h-0.5 gradient-div mb-4"></div>
         <Fade>
           {/* Featured Project */}
-          <FeaturedProject project={featured} />
+          <FeaturedProject project={project4} />
+          {/* Project LadyCrushCrew */}
+          <ProjectBlock project={ladycrushcrew} />
           {/* Project 1 Kanban Board */}
           <ProjectBlock project={project1} />
           {/* Project 2 Face */}
