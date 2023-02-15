@@ -38,7 +38,7 @@ function Projects() {
       ["https://vanessavun.github.io/portfolio/", "v 1.0"],
       ["https://delicate-lokum-492537.netlify.app/", "v 2.0"]
     ],
-    githubUrl: "https://github.com/vanessavun/ztm-face-recognition"
+    githubUrl: "https://github.com/vanessavun/portfolio_v3"
   }
   const project4 = {
     imageUrl: "https://i.ibb.co/whfV5zk/Apples-to-Oranges.gif",
