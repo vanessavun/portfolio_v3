@@ -24,7 +24,7 @@ const ContactForm = () => {
   return (
     <div className="w-full mx-auto">
       <form
-        className="p-4 bg-blue-200 rounded-lg"
+        className="p-4 bg-black rounded-lg"
         action={FORM_ENDPOINT}
         onSubmit={() => handleSubmit()}
         method="POST"

@@ -6,9 +6,9 @@ function Header() {
         <div className="header-area flex justify-center bg-black">
           {/* Navigation */}
           <nav className='container'>
-            <div className=" flex justify-between py-4 px-1 text-indigo-300">
+            <div className=" flex justify-center sm:justify-between py-4 px-1 text-indigo-300">
               {/* Header Navigation */}
-              <div className="flex items-center"></div>
+              <div className="flex items-center font-sacramento text-3xl -mb-4 font-bold">VV</div>
               <div className="flex items-center">
                 <ul className=" hover:text-white text-sm sm:text-base sm:font-semibold flex">
                   <li className="mx-4">
@@ -21,7 +21,7 @@ function Header() {
                     <a href="#contact">Contact</a>
                   </li>
                   <li className="mx-4">
-                    <a href="https://drive.google.com/file/d/1ii8Txyo1bGPPEflkQhqJrGBcoYJ-Pcfj/view?usp=share_link" target="_blank">Resume</a>
+                    <a href="https://drive.google.com/file/d/1Xkianc1n1iWvGuh2ckTtVCB7a0p_sDzu/view?usp=share_link" target="_blank">Resume</a>
                   </li>
                 </ul>
               </div>

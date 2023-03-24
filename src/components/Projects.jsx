@@ -64,22 +64,6 @@ function Projects() {
     );
   };
 
-  const badge = (badge) => {
-    return (
-      <li className="mx-1 px-1 bg-black text-white rounded-lg text-xs">
-        {badge}
-      </li>
-    );
-  };
-
-  const projectImage = (url) => {
-    return (
-      <div className="rotate p-4">
-        <img src={url} className="rounded-lg drop-shadow-lg sm:max-w-xs" />
-      </div>
-    );
-  };
-
   return (
     <section id="projects" className="flex justify-center">
       <div className="container p-4">

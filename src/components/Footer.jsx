@@ -4,10 +4,15 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="py-8 flex flex-col justify-center items-center bg-black">
-      <p className="text-indigo-200 font-semibold text-sm">
-        © {year} | Coded with 💗 by Vanessa Vun
-      </p>
-      <p id="credits" className="text-indigo-200 text-sm">
+      <div className="block">
+        <p className="text-indigo-200 font-medium text-sm">
+          © {year} | Coded with 💗 by 
+        </p>
+        <p className="text-indigo-200 font-semibold text-2xl mt-1 font-sacramento text-center">
+        Vanessa Vun
+        </p>
+      </div>
+      <p className="text-indigo-200 text-xs">
         Star & Finger icon by{" "}
         <a target="_blank" href="https://icons8.com">
           Icons8

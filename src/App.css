@@ -1,5 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
   cursor: url(/src/assets/icons8.png), auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #2a0845;
+  background: -webkit-linear-gradient(to top, #2a0845, #6441A5);
+  background-image: linear-gradient(160deg, #2a0845 0%, #005180 100%);
+  overflow-x: hidden;
+}
+
+@layer components {
+  .container {
+    @apply w-[800px];
+  }
 }
 
 
@@ -25,14 +44,6 @@ button:active {
   transform: scale(.9);
 }
 
-.container {
-  width: 800px;
-}
-
-#hero {
-  height: 100vh;
-}
-
 .rotate img {
   transition: 1s ease;
 }
@@ -44,18 +55,8 @@ button:active {
   transition: 1s ease;
 }
 
-#credits {
-  font-size: xx-small;
-}
-
 .social > a:hover {
   cursor: url(/src/assets/icons8-finger.png), pointer;
-}
-
-.hero-image {
-  max-width: 400px;
-  min-width: 200px;
-  border-radius: 100%;
 }
 
 .submit-button {
