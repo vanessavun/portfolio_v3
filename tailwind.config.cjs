@@ -11,3 +11,9 @@ module.exports = {
   },
   plugins: []
 }
+
+// purge: [
+//   "./src/**/*.{html,js,jsx}",
+//   "./public/index.html",
+//   "./src/*.jsx"
+// ]
