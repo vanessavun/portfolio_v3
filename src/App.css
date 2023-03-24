@@ -15,11 +15,10 @@ body {
   overflow-x: hidden;
 }
 
-@layer components {
-  .container {
-    @apply w-[800px];
-  }
+.container {
+  width: 800px;
 }
+
 
 
 a {
